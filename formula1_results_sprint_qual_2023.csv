@@ -1,0 +1,101 @@
+Year,Race Name,Position,First Name,Last Name,Racer Number,Team,Laps Completed,Q1,Q2,Q3
+2023,azerbaijan,1,Charles,Leclerc,16,Ferrari,14,01:42.8,01:42.5,01:41.7
+2023,azerbaijan,2,Sergio,Perez,11,Red Bull Racing Honda RBPT,15,01:43.9,01:42.9,01:41.8
+2023,azerbaijan,3,Max,Verstappen,1,Red Bull Racing Honda RBPT,13,01:43.3,01:42.4,01:42.0
+2023,azerbaijan,4,George,Russell,63,Mercedes,18,01:43.8,01:43.1,01:42.3
+2023,azerbaijan,5,Carlos,Sainz,55,Ferrari,15,01:43.6,01:42.9,01:42.3
+2023,azerbaijan,6,Lewis,Hamilton,44,Mercedes,17,01:43.6,01:43.1,01:42.5
+2023,azerbaijan,7,Alexander,Albon,23,Williams Mercedes,17,01:44.0,01:43.4,01:42.8
+2023,azerbaijan,8,Fernando,Alonso,14,Aston Martin Aramco Mercedes,16,01:43.8,01:43.0,01:43.0
+2023,azerbaijan,9,Lance,Stroll,18,Aston Martin Aramco Mercedes,17,01:43.9,01:43.4,01:43.1
+2023,azerbaijan,10,Lando,Norris,4,McLaren Mercedes,12,01:43.9,01:43.4,
+2023,azerbaijan,11,Oscar,Piastri,81,McLaren Mercedes,12,01:44.2,01:43.4,
+2023,azerbaijan,12,Nico,Hulkenberg,27,Haas Ferrari,12,01:44.8,01:43.8,
+2023,azerbaijan,13,Esteban,Ocon,31,Alpine Renault,11,01:44.4,01:44.1,
+2023,azerbaijan,14,Kevin,Magnussen,20,Haas Ferrari,11,01:44.1,01:44.3,
+2023,azerbaijan,15,Logan,Sargeant,2,Williams Mercedes,6,01:44.0,,
+2023,azerbaijan,16,Zhou,Guanyu,24,Alfa Romeo Ferrari,6,01:45.2,,
+2023,azerbaijan,17,Valtteri,Bottas,77,Alfa Romeo Ferrari,6,01:45.4,,
+2023,azerbaijan,18,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,6,01:45.4,,
+2023,azerbaijan,19,Pierre,Gasly,10,Alpine Renault,3,01:47.0,,
+2023,azerbaijan,20,Nyck,De Vries,21,AlphaTauri Honda RBPT,6,01:48.2,,
+2023,austria,1,Max,Verstappen,1,Red Bull Racing Honda RBPT,23,01:06.2,01:05.4,01:04.4
+2023,austria,2,Sergio,Perez,11,Red Bull Racing Honda RBPT,23,01:06.9,01:05.8,01:04.9
+2023,austria,3,Lando,Norris,4,McLaren Mercedes,23,01:06.7,01:05.7,01:05.0
+2023,austria,4,Nico,Hulkenberg,27,Haas Ferrari,23,01:06.5,01:06.1,01:05.1
+2023,austria,5,Carlos,Sainz,55,Ferrari,18,01:06.2,01:05.4,01:05.1
+2023,austria,6,Charles,Leclerc,16,Ferrari,23,01:07.1,01:05.7,01:05.2
+2023,austria,7,Fernando,Alonso,14,Aston Martin Aramco Mercedes,24,01:06.6,01:05.8,01:05.3
+2023,austria,8,Lance,Stroll,18,Aston Martin Aramco Mercedes,24,01:06.6,01:05.9,01:05.3
+2023,austria,9,Esteban,Ocon,31,Alpine Renault,24,01:06.8,01:05.6,01:05.4
+2023,austria,10,Kevin,Magnussen,20,Haas Ferrari,23,01:06.6,01:05.7,01:05.9
+2023,austria,11,Alexander,Albon,23,Williams Mercedes,18,01:06.9,01:06.2,
+2023,austria,12,Pierre,Gasly,10,Alpine Renault,16,01:06.9,01:06.4,
+2023,austria,13,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,18,01:06.9,01:06.4,
+2023,austria,14,Nyck,De Vries,21,AlphaTauri Honda RBPT,18,01:06.7,01:06.6,
+2023,austria,15,George,Russell,63,Mercedes,10,01:06.7,,
+2023,austria,16,Zhou,Guanyu,24,Alfa Romeo Ferrari,9,01:07.1,,
+2023,austria,17,Oscar,Piastri,81,McLaren Mercedes,10,01:07.1,,
+2023,austria,18,Lewis,Hamilton,44,Mercedes,9,01:07.3,,
+2023,austria,19,Valtteri,Bottas,77,Alfa Romeo Ferrari,9,01:07.3,,
+2023,austria,20,Logan,Sargeant,2,Williams Mercedes,10,01:07.4,,
+2023,belgium,1,Max,Verstappen,1,Red Bull Racing Honda RBPT,14,01:58.1,01:55.2,01:49.1
+2023,belgium,2,Oscar,Piastri,81,McLaren Mercedes,14,02:00.1,01:56.4,01:49.1
+2023,belgium,3,Carlos,Sainz,55,Ferrari,14,01:59.4,01:56.6,01:49.1
+2023,belgium,4,Charles,Leclerc,16,Ferrari,14,01:59.6,01:56.3,01:49.3
+2023,belgium,5,Lando,Norris,4,McLaren Mercedes,16,02:00.4,01:56.8,01:49.4
+2023,belgium,6,Pierre,Gasly,10,Alpine Renault,15,02:00.0,01:56.1,01:49.7
+2023,belgium,7,Lewis,Hamilton,44,Mercedes,16,01:58.9,01:55.8,01:49.9
+2023,belgium,8,Sergio,Perez,11,Red Bull Racing Honda RBPT,14,01:59.4,01:55.9,01:50.0
+2023,belgium,9,Esteban,Ocon,31,Alpine Renault,15,01:59.9,01:57.1,01:50.5
+2023,belgium,10,George,Russell,63,Mercedes,13,02:00.5,01:57.4,01:55.7
+2023,belgium,11,Daniel,Ricciardo,3,AlphaTauri Honda RBPT,10,02:00.2,01:57.7,
+2023,belgium,12,Alexander,Albon,23,Williams Mercedes,8,01:59.2,DNF,
+2023,belgium,13,Logan,Sargeant,2,Williams Mercedes,10,02:00.0,DNF,
+2023,belgium,14,Lance,Stroll,18,Aston Martin Aramco Mercedes,9,02:00.5,DNF,
+2023,belgium,15,Fernando,Alonso,14,Aston Martin Aramco Mercedes,6,01:59.0,DNS,
+2023,belgium,16,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,6,02:00.6,,
+2023,belgium,17,Valtteri,Bottas,77,Alfa Romeo Ferrari,6,02:01.0,,
+2023,belgium,18,Kevin,Magnussen,20,Haas Ferrari,7,02:01.1,,
+2023,belgium,19,Zhou,Guanyu,24,Alfa Romeo Ferrari,7,02:01.4,,
+2023,belgium,20,Nico,Hulkenberg,27,Haas Ferrari,6,DNF,,
+2023,qatar,1,Oscar,Piastri,81,McLaren Mercedes,18,01:26.0,01:25.5,01:24.5
+2023,qatar,2,Lando,Norris,4,McLaren Mercedes,14,01:25.7,01:24.9,01:24.5
+2023,qatar,3,Max,Verstappen,1,Red Bull Racing Honda RBPT,12,01:25.5,01:25.2,01:24.6
+2023,qatar,4,George,Russell,63,Mercedes,17,01:25.4,01:25.0,01:24.8
+2023,qatar,5,Carlos,Sainz,55,Ferrari,21,01:25.9,01:25.4,01:25.2
+2023,qatar,6,Charles,Leclerc,16,Ferrari,21,01:26.3,01:25.4,01:25.2
+2023,qatar,7,Nico,Hulkenberg,27,Haas Ferrari,16,01:26.5,01:25.5,01:25.3
+2023,qatar,8,Sergio,Perez,11,Red Bull Racing Honda RBPT,17,01:26.1,01:25.1,01:25.4
+2023,qatar,9,Fernando,Alonso,14,Aston Martin Aramco Mercedes,13,01:25.9,01:25.3,DNF
+2023,qatar,10,Esteban,Ocon,31,Alpine Renault,15,01:26.1,01:25.5,DNF
+2023,qatar,11,Pierre,Gasly,10,Alpine Renault,12,01:25.8,01:25.7,
+2023,qatar,12,Lewis,Hamilton,44,Mercedes,14,01:26.4,01:26.0,
+2023,qatar,13,Valtteri,Bottas,77,Alfa Romeo Ferrari,8,01:26.4,01:26.2,
+2023,qatar,14,Liam,Lawson,40,AlphaTauri Honda RBPT,12,01:26.2,01:26.6,
+2023,qatar,15,Zhou,Guanyu,24,Alfa Romeo Ferrari,10,01:26.7,01:54.5,
+2023,qatar,16,Lance,Stroll,18,Aston Martin Aramco Mercedes,8,01:26.8,,
+2023,qatar,17,Alexander,Albon,23,Williams Mercedes,6,01:26.9,,
+2023,qatar,18,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,6,01:26.9,,
+2023,qatar,19,Kevin,Magnussen,20,Haas Ferrari,5,01:27.4,,
+2023,qatar,20,Logan,Sargeant,2,Williams Mercedes,7,02:05.7,,
+2023,united-states,1,Max,Verstappen,1,Red Bull Racing Honda RBPT,11,01:36.0,01:35.2,01:34.5
+2023,united-states,2,Charles,Leclerc,16,Ferrari,14,01:36.0,01:35.4,01:34.6
+2023,united-states,3,Lewis,Hamilton,44,Mercedes,12,01:36.4,01:35.9,01:34.6
+2023,united-states,4,Lando,Norris,4,McLaren Mercedes,15,01:36.5,01:35.6,01:34.6
+2023,united-states,5,Oscar,Piastri,81,McLaren Mercedes,15,01:36.7,01:35.8,01:34.9
+2023,united-states,6,Carlos,Sainz,55,Ferrari,14,01:36.3,01:35.5,01:34.9
+2023,united-states,7,Sergio,Perez,11,Red Bull Racing Honda RBPT,14,01:36.3,01:35.7,01:35.0
+2023,united-states,8,George,Russell,63,Mercedes,12,01:36.3,01:35.8,01:35.2
+2023,united-states,9,Alexander,Albon,23,Williams Mercedes,12,01:36.2,01:35.9,01:35.4
+2023,united-states,10,Pierre,Gasly,10,Alpine Renault,12,01:36.6,01:35.8,01:35.9
+2023,united-states,11,Daniel,Ricciardo,3,AlphaTauri Honda RBPT,9,01:36.7,01:36.0,
+2023,united-states,12,Fernando,Alonso,14,Aston Martin Aramco Mercedes,9,01:36.4,01:36.1,
+2023,united-states,13,Esteban,Ocon,31,Alpine Renault,9,01:36.4,01:36.1,
+2023,united-states,14,Lance,Stroll,18,Aston Martin Aramco Mercedes,11,01:36.6,01:36.2,
+2023,united-states,15,Zhou,Guanyu,24,Alfa Romeo Ferrari,11,01:36.6,01:36.2,
+2023,united-states,16,Nico,Hulkenberg,27,Haas Ferrari,6,01:36.7,,
+2023,united-states,17,Kevin,Magnussen,20,Haas Ferrari,6,01:36.9,,
+2023,united-states,18,Valtteri,Bottas,77,Alfa Romeo Ferrari,6,01:36.9,,
+2023,united-states,19,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,5,01:36.9,,
+2023,united-states,20,Logan,Sargeant,2,Williams Mercedes,6,01:37.2,,

@@ -1,0 +1,34 @@
+--------------------2023 Driver Standings------------------------------------------------------------
+1-Max Verstappen           433       Red Bull Racing Honda RBPT
+2-Sergio Perez             224       Red Bull Racing Honda RBPT
+3-Lewis Hamilton           194       Mercedes
+4-Fernando Alonso          183       Aston Martin Aramco Mercedes
+5-Carlos Sainz             153       Ferrari
+6-Charles Leclerc          145       Ferrari
+7-Lando Norris             136       McLaren Mercedes
+8-George Russell           132       Mercedes
+9-Oscar Piastri            83        McLaren Mercedes
+10-Lance Stroll             47        Aston Martin Aramco Mercedes
+11-Pierre Gasly             46        Alpine Renault
+12-Esteban Ocon             44        Alpine Renault
+13-Alexander Albon          23        Williams Mercedes
+14-Valtteri Bottas          10        Alfa Romeo Ferrari
+15-Nico Hulkenberg          9         Haas Ferrari
+16-Zhou Guanyu              6         Alfa Romeo Ferrari
+17-Yuki Tsunoda             3         AlphaTauri Honda RBPT
+18-Kevin Magnussen          3         Haas Ferrari
+19-Liam Lawson              2         AlphaTauri Honda RBPT
+20-Logan Sargeant           0         Williams Mercedes
+21-Nyck De Vries            0         AlphaTauri Honda RBPT
+22-Daniel Ricciardo         0         AlphaTauri Honda RBPT
+------------------------ Total points collected by drivers/teams during this period------------------------------
+Alfa Romeo Ferrari       16.0
+AlphaTauri Honda RBPT    5.0
+Alpine Renault           90.0
+Aston Martin Aramco Mercedes230.0
+Ferrari                  298.0
+Haas Ferrari             12.0
+McLaren Mercedes         219.0
+Mercedes                 326.0
+Red Bull Racing Honda RBPT657.0
+Williams Mercedes        23.0
