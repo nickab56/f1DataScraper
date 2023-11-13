@@ -101,11 +101,27 @@ def get_driver_name(tbody):
     return list_of_first_names, list_of_last_names
 
 
+# Create a dictionary to map team names to team IDs
+team_name_to_id = {
+    'Red Bull Racing Honda RBPT': 16,
+    'Aston Martin Aramco Mercedes': 16,
+    'Ferrari': 8,
+    'Mercedes': 16,
+    'Alfa Romeo Ferrari': 14,
+    'Alpine Renault': 16,
+    'Williams Mercedes': 16,
+    'AlphaTauri Honda RBPT': 8,
+    'Haas Ferrari': 17,
+    'McLaren Mercedes': 16
+}
+
 def get_team_name(tbody):
     list_of_teams = []
     tds = tbody.find_all("td", class_="semi-bold uppercase hide-for-tablet")
     for td in tds:
-        list_of_teams.append(td.text)
+        team_name = td.text
+        team_id = team_name_to_id.get(team_name, -1)
+        list_of_teams.append(team_id)
     return list_of_teams
 
 

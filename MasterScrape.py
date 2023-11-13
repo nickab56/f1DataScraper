@@ -2,11 +2,35 @@ import requests
 from bs4 import BeautifulSoup as soup
 import time
 import csv
+from datetime import datetime, timedelta
 
 fastest_first_names = []
 fastest_last_names = []
 fastest_race_nums = []
+fastest_race_times = []
 races = []
+
+def convert_relative_times_to_actual_times(list_of_times):
+    actual_times = []
+    reference_time = None
+
+    for time_str in list_of_times:
+        if 'lap' in time_str or 'DNF' in time_str or 'DNS' in time_str:
+            actual_times.append(time_str)  # Keep 'lap' or 'DNF' entries as they are
+        elif ':' in time_str:
+            # Handle the first time in 'MM:SS.sss' format
+            actual_times.append(time_str)
+            # Set the reference time for subsequent relative times
+            reference_time = datetime.strptime(time_str, '%M:%S.%f').time()
+        else:
+            # Handle relative times in '+XX.XXXs' format
+            if reference_time:
+                relative_time = timedelta(seconds=float(time_str.rstrip('s')))
+                actual_time = (datetime.min + timedelta(minutes=reference_time.minute, seconds=reference_time.second, microseconds=reference_time.microsecond) + relative_time).time()
+                actual_times.append(actual_time.strftime('%M:%S.%f')[:-3])
+
+    return actual_times
+
 
 def get_page(url):
     page = requests.get(url, headers={
@@ -17,6 +41,9 @@ def get_page(url):
 def get_tbody(race_name, y):
     url = "https://www.formula1.com/en/results.html/"+str(y)+"/races/" + \
         race_name+"/fastest-laps.html"
+    
+    # url = "https://cis2.stvincent.edu/F1/2022_350_F1/www.formula1.com/en/results.html/"+str(y)+"/races/" + \
+    #     race_name+"/fastest-laps.html"
     doc = get_page(url)
     site_wrapper = doc.find(class_="site-wrapper")
     main = site_wrapper.find(class_="template template-resultsarchive")
@@ -45,6 +72,7 @@ def get_races(doc):
 
 def get_sidenav(race_name, y):
     url = f"https://www.formula1.com/en/results.html/{y}/races/{race_name}/race-result.html"
+    #url = f"https://cis2.stvincent.edu/F1/2022_350_F1/www.formula1.com/en/results.html/{y}/races/{race_name}/race-result.html"
     response = requests.get(url)
     if response.status_code == 200:
         page = soup(response.content, 'html.parser')
@@ -88,7 +116,11 @@ def fastest_lap(race_name, y):
             # just need first name we find cause we ant fastest lap for each race.
             break
     
-    return first_name, last_name, racenum
+    # Find the second time
+    if len(tds) > 2:
+        fast_time = tds[2].text
+
+    return first_name, last_name, racenum, fast_time  # Include second_time in the return values
     
 
 def get_race_input(races, y):
@@ -109,7 +141,7 @@ def get_race_input(races, y):
 
 def fastest_lap_csv(race_link, y):
     
-    data = list(zip([y] * len(fastest_first_names), races * len(fastest_first_names), fastest_first_names, fastest_last_names, fastest_race_nums))
+    data = list(zip(races * len(fastest_first_names), fastest_first_names, fastest_last_names, fastest_race_nums, convert_relative_times_to_actual_times(fastest_race_times)))
     
     # Define the CSV file name with the year and race name
     csv_filename = f"formula1_fastest_laps_{y}.csv"
@@ -120,7 +152,7 @@ def fastest_lap_csv(race_link, y):
         
         # Check if the file is empty, and if so, write the header row
         if csv_file.tell() == 0:
-            writer.writerow(["Year", "Race Name", "First Name", "Last Name", "Racer Number"])
+            writer.writerow(["Race Name", "First Name", "Last Name", "Racer Number", "Fastest Time"])
         
         # Write the data
         writer.writerows(data)
@@ -133,10 +165,11 @@ def get_event_types(race_links, race_name, y):
         race_name = race_links[index][0]
         try:
             eventtypelist.append(get_sidenav(race_name, y))
-            first_name, last_name, race_num = fastest_lap(race_name, y)
+            first_name, last_name, race_num, fastest_time = fastest_lap(race_name, y)
             fastest_first_names.append(first_name)
             fastest_last_names.append(last_name)
             fastest_race_nums.append(race_num)
+            fastest_race_times.append(fastest_time)
             races.append(race_name[5:])
             
             
@@ -151,13 +184,14 @@ y = 2023
 import raceInfo
 
 url = "https://www.formula1.com/en/results.html/"+str(y)+"/races.html"
+#url = f"https://cis2.stvincent.edu/F1/2022_350_F1/www.formula1.com/en/results.html/"+str(y)+"/races.html"
 doc = get_page(url)
 race_links = get_races(doc)
 race_name = get_race_input(race_links, y)
 
 if (race_name == "all"):
     eventlist = get_event_types(race_links, race_name, y)
-    #fastest_lap_csv(race_links, y)
+    fastest_lap_csv(race_links, y)
     
 desired_events = ['race-result', 'practice-1', 'practice-2', 'practice-3', 'sprint-results', 'qualifying', 'sprint-shootout']
 
@@ -174,30 +208,32 @@ for event, indices in event_indices.items():
     print(f"{event} indices: {indices}")
 
 
-# print("\nRace Scrape Starting")
-# raceInfo.main(race_links, race_name, y, event_indices)
-# print("\nRace Scrape Finished")
-# print("---------------------------------------------------------------------------")
-# print("Qualifying Scrape Starting\n")
+print("\nRace Scrape Starting")
+raceInfo.main(race_links, race_name, y, event_indices)
+print("\nRace Scrape Finished")
 
-# import QualInfo
-# QualInfo.main(race_links, race_name, y, event_indices)
+""" 
+print("---------------------------------------------------------------------------")
+print("Qualifying Scrape Starting\n")
 
-# print("\nQualifying Scrape Finished")
-# print("---------------------------------------------------------------------------")
-# print("Sprint Qualifying Scrape Starting\n")
+import QualInfo
+QualInfo.main(race_links, race_name, y, event_indices)
 
-# import SprintQualInfo
-# SprintQualInfo.main(race_links, race_name, y, event_indices)
+print("\nQualifying Scrape Finished")
+print("---------------------------------------------------------------------------")
+print("Sprint Qualifying Scrape Starting\n")
 
-# print("\nSprint Qualifying Scrape Finished")
-# print("---------------------------------------------------------------------------")
-# print("Sprint Scrape Starting\n")
-# import sprintInfo
-# sprintInfo.main(race_links, race_name, y, event_indices)
+import SprintQualInfo
+SprintQualInfo.main(race_links, race_name, y, event_indices)
 
-# print("\nSprint Scrape Finished")
-# print("---------------------------------------------------------------------------")
+print("\nSprint Qualifying Scrape Finished")
+print("---------------------------------------------------------------------------")
+print("Sprint Scrape Starting\n")
+import sprintInfo
+sprintInfo.main(race_links, race_name, y, event_indices)
+
+print("\nSprint Scrape Finished")
+print("---------------------------------------------------------------------------")
 print("Practice 1 Scrape Starting\n")
 
 import practiceInfo1
@@ -212,4 +248,4 @@ print("-------------------------------------------------------------------------
 print("Practice 3 Scrape Starting\n")
 import practiceInfo3
 practiceInfo3.main(race_links, race_name, y, event_indices)
-print("Practice 3 Scrape Finsihed\n")
+print("Practice 3 Scrape Finsihed\n") """

@@ -1,0 +1,299 @@
+Year,Race Name,Position,First Name,Last Name,Racer Number,Team,Laps Completed,Time
+2023,bahrain,1,Fernando,Alonso,14,Aston Martin Aramco Mercedes,25,01:30.9
+2023,bahrain,2,Max,Verstappen,1,Red Bull Racing Honda RBPT,24,01:31.1
+2023,bahrain,3,Sergio,Perez,11,Red Bull Racing Honda RBPT,26,01:31.1
+2023,bahrain,4,Charles,Leclerc,16,Ferrari,26,01:31.4
+2023,bahrain,5,Nico,Hulkenberg,27,Haas Ferrari,25,01:31.4
+2023,bahrain,6,Lance,Stroll,18,Aston Martin Aramco Mercedes,28,01:31.5
+2023,bahrain,7,Pierre,Gasly,10,Alpine Renault,24,01:31.5
+2023,bahrain,8,Lewis,Hamilton,44,Mercedes,27,01:31.5
+2023,bahrain,9,Lando,Norris,4,McLaren Mercedes,27,01:31.6
+2023,bahrain,10,Zhou,Guanyu,24,Alfa Romeo Ferrari,27,01:31.6
+2023,bahrain,11,Esteban,Ocon,31,Alpine Renault,25,01:31.6
+2023,bahrain,12,Valtteri,Bottas,77,Alfa Romeo Ferrari,28,01:31.8
+2023,bahrain,13,George,Russell,63,Mercedes,25,01:31.9
+2023,bahrain,14,Carlos,Sainz,55,Ferrari,28,01:32.0
+2023,bahrain,15,Oscar,Piastri,81,McLaren Mercedes,27,01:32.0
+2023,bahrain,16,Kevin,Magnussen,20,Haas Ferrari,18,01:32.1
+2023,bahrain,17,Alexander,Albon,23,Williams Mercedes,28,01:32.4
+2023,bahrain,18,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,27,01:32.5
+2023,bahrain,19,Nyck,De Vries,21,AlphaTauri Honda RBPT,28,01:32.6
+2023,bahrain,20,Logan,Sargeant,2,Williams Mercedes,29,01:32.7
+2023,saudi-arabia,1,Max,Verstappen,1,Red Bull Racing Honda RBPT,29,01:29.6
+2023,saudi-arabia,2,Fernando,Alonso,14,Aston Martin Aramco Mercedes,26,01:29.8
+2023,saudi-arabia,3,Sergio,Perez,11,Red Bull Racing Honda RBPT,26,01:29.9
+2023,saudi-arabia,4,Esteban,Ocon,31,Alpine Renault,27,01:30.0
+2023,saudi-arabia,5,George,Russell,63,Mercedes,27,01:30.1
+2023,saudi-arabia,6,Pierre,Gasly,10,Alpine Renault,28,01:30.1
+2023,saudi-arabia,7,Lance,Stroll,18,Aston Martin Aramco Mercedes,27,01:30.1
+2023,saudi-arabia,8,Nico,Hulkenberg,27,Haas Ferrari,27,01:30.2
+2023,saudi-arabia,9,Charles,Leclerc,16,Ferrari,28,01:30.3
+2023,saudi-arabia,10,Carlos,Sainz,55,Ferrari,29,01:30.6
+2023,saudi-arabia,11,Lewis,Hamilton,44,Mercedes,27,01:30.6
+2023,saudi-arabia,12,Lando,Norris,4,McLaren Mercedes,27,01:30.7
+2023,saudi-arabia,13,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,30,01:30.8
+2023,saudi-arabia,14,Alexander,Albon,23,Williams Mercedes,27,01:30.8
+2023,saudi-arabia,15,Kevin,Magnussen,20,Haas Ferrari,25,01:30.8
+2023,saudi-arabia,16,Zhou,Guanyu,24,Alfa Romeo Ferrari,27,01:30.8
+2023,saudi-arabia,17,Nyck,De Vries,21,AlphaTauri Honda RBPT,29,01:30.9
+2023,saudi-arabia,18,Logan,Sargeant,2,Williams Mercedes,30,01:31.0
+2023,saudi-arabia,19,Oscar,Piastri,81,McLaren Mercedes,26,01:31.0
+2023,saudi-arabia,20,Valtteri,Bottas,77,Alfa Romeo Ferrari,30,01:31.1
+2023,australia,1,Fernando,Alonso,14,Aston Martin Aramco Mercedes,13,01:18.9
+2023,australia,2,Charles,Leclerc,16,Ferrari,10,01:19.3
+2023,australia,3,Max,Verstappen,1,Red Bull Racing Honda RBPT,12,01:19.5
+2023,australia,4,George,Russell,63,Mercedes,20,01:19.7
+2023,australia,5,Carlos,Sainz,55,Ferrari,12,01:19.7
+2023,australia,6,Esteban,Ocon,31,Alpine Renault,12,01:19.7
+2023,australia,7,Sergio,Perez,11,Red Bull Racing Honda RBPT,15,01:20.1
+2023,australia,8,Lando,Norris,4,McLaren Mercedes,20,01:20.2
+2023,australia,9,Nico,Hulkenberg,27,Haas Ferrari,19,01:20.2
+2023,australia,10,Pierre,Gasly,10,Alpine Renault,12,01:20.2
+2023,australia,11,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,18,01:20.2
+2023,australia,12,Valtteri,Bottas,77,Alfa Romeo Ferrari,22,01:20.3
+2023,australia,13,Lewis,Hamilton,44,Mercedes,17,01:20.3
+2023,australia,14,Oscar,Piastri,81,McLaren Mercedes,24,01:20.4
+2023,australia,15,Zhou,Guanyu,24,Alfa Romeo Ferrari,22,01:20.5
+2023,australia,16,Lance,Stroll,18,Aston Martin Aramco Mercedes,15,01:20.6
+2023,australia,17,Nyck,De Vries,21,AlphaTauri Honda RBPT,8,01:20.6
+2023,australia,18,Alexander,Albon,23,Williams Mercedes,18,01:21.2
+2023,australia,19,Kevin,Magnussen,20,Haas Ferrari,18,01:21.3
+2023,miami,1,Max,Verstappen,1,Red Bull Racing Honda RBPT,23,01:27.9
+2023,miami,2,Carlos,Sainz,55,Ferrari,26,01:28.3
+2023,miami,3,Charles,Leclerc,16,Ferrari,20,01:28.4
+2023,miami,4,Sergio,Perez,11,Red Bull Racing Honda RBPT,24,01:28.4
+2023,miami,5,Fernando,Alonso,14,Aston Martin Aramco Mercedes,25,01:28.7
+2023,miami,6,Lando,Norris,4,McLaren Mercedes,24,01:28.7
+2023,miami,7,Lewis,Hamilton,44,Mercedes,23,01:28.9
+2023,miami,8,Lance,Stroll,18,Aston Martin Aramco Mercedes,23,01:28.9
+2023,miami,9,Esteban,Ocon,31,Alpine Renault,25,01:28.9
+2023,miami,10,Alexander,Albon,23,Williams Mercedes,26,01:29.0
+2023,miami,11,Pierre,Gasly,10,Alpine Renault,22,01:29.1
+2023,miami,12,Kevin,Magnussen,20,Haas Ferrari,22,01:29.2
+2023,miami,13,Zhou,Guanyu,24,Alfa Romeo Ferrari,27,01:29.2
+2023,miami,14,Valtteri,Bottas,77,Alfa Romeo Ferrari,26,01:29.2
+2023,miami,15,George,Russell,63,Mercedes,21,01:29.2
+2023,miami,16,Oscar,Piastri,81,McLaren Mercedes,24,01:29.3
+2023,miami,17,Nico,Hulkenberg,27,Haas Ferrari,22,01:29.4
+2023,miami,18,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,25,01:29.6
+2023,miami,19,Nyck,De Vries,21,AlphaTauri Honda RBPT,25,01:29.9
+2023,miami,20,Logan,Sargeant,2,Williams Mercedes,27,01:30.0
+2023,monaco,1,Max,Verstappen,1,Red Bull Racing Honda RBPT,30,01:12.5
+2023,monaco,2,Charles,Leclerc,16,Ferrari,33,01:12.5
+2023,monaco,3,Carlos,Sainz,55,Ferrari,22,01:12.6
+2023,monaco,4,Fernando,Alonso,14,Aston Martin Aramco Mercedes,32,01:12.7
+2023,monaco,5,Lando,Norris,4,McLaren Mercedes,18,01:12.9
+2023,monaco,6,Lewis,Hamilton,44,Mercedes,29,01:13.0
+2023,monaco,7,Sergio,Perez,11,Red Bull Racing Honda RBPT,30,01:13.0
+2023,monaco,8,Valtteri,Bottas,77,Alfa Romeo Ferrari,33,01:13.0
+2023,monaco,9,Pierre,Gasly,10,Alpine Renault,28,01:13.1
+2023,monaco,10,Esteban,Ocon,31,Alpine Renault,30,01:13.2
+2023,monaco,11,Lance,Stroll,18,Aston Martin Aramco Mercedes,31,01:13.2
+2023,monaco,12,George,Russell,63,Mercedes,32,01:13.2
+2023,monaco,13,Zhou,Guanyu,24,Alfa Romeo Ferrari,32,01:13.4
+2023,monaco,14,Kevin,Magnussen,20,Haas Ferrari,28,01:13.5
+2023,monaco,15,Nico,Hulkenberg,27,Haas Ferrari,33,01:13.5
+2023,monaco,16,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,22,01:13.6
+2023,monaco,17,Nyck,De Vries,21,AlphaTauri Honda RBPT,34,01:13.7
+2023,monaco,18,Oscar,Piastri,81,McLaren Mercedes,30,01:13.7
+2023,monaco,19,Alexander,Albon,23,Williams Mercedes,10,01:14.2
+2023,monaco,20,Logan,Sargeant,2,Williams Mercedes,33,01:14.2
+2023,spain,1,Max,Verstappen,1,Red Bull Racing Honda RBPT,34,01:13.9
+2023,spain,2,Fernando,Alonso,14,Aston Martin Aramco Mercedes,30,01:14.1
+2023,spain,3,Nico,Hulkenberg,27,Haas Ferrari,31,01:14.2
+2023,spain,4,Sergio,Perez,11,Red Bull Racing Honda RBPT,30,01:14.2
+2023,spain,5,Esteban,Ocon,31,Alpine Renault,30,01:14.2
+2023,spain,6,Charles,Leclerc,16,Ferrari,32,01:14.2
+2023,spain,7,Carlos,Sainz,55,Ferrari,32,01:14.3
+2023,spain,8,George,Russell,63,Mercedes,31,01:14.4
+2023,spain,9,Valtteri,Bottas,77,Alfa Romeo Ferrari,32,01:14.4
+2023,spain,10,Pierre,Gasly,10,Alpine Renault,29,01:14.5
+2023,spain,11,Lewis,Hamilton,44,Mercedes,31,01:14.5
+2023,spain,12,Oscar,Piastri,81,McLaren Mercedes,30,01:14.6
+2023,spain,13,Zhou,Guanyu,24,Alfa Romeo Ferrari,29,01:14.6
+2023,spain,14,Lando,Norris,4,McLaren Mercedes,30,01:14.7
+2023,spain,15,Kevin,Magnussen,20,Haas Ferrari,24,01:14.7
+2023,spain,16,Nyck,De Vries,21,AlphaTauri Honda RBPT,33,01:14.8
+2023,spain,17,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,34,01:14.8
+2023,spain,18,Lance,Stroll,18,Aston Martin Aramco Mercedes,31,01:15.0
+2023,spain,19,Alexander,Albon,23,Williams Mercedes,32,01:15.1
+2023,spain,20,Logan,Sargeant,2,Williams Mercedes,33,01:15.4
+2023,canada,1,Lewis,Hamilton,44,Mercedes,30,01:13.7
+2023,canada,2,George,Russell,63,Mercedes,31,01:13.7
+2023,canada,3,Carlos,Sainz,55,Ferrari,39,01:13.8
+2023,canada,4,Fernando,Alonso,14,Aston Martin Aramco Mercedes,38,01:14.0
+2023,canada,5,Charles,Leclerc,16,Ferrari,38,01:14.1
+2023,canada,6,Max,Verstappen,1,Red Bull Racing Honda RBPT,34,01:14.1
+2023,canada,7,Valtteri,Bottas,77,Alfa Romeo Ferrari,40,01:14.2
+2023,canada,8,Sergio,Perez,11,Red Bull Racing Honda RBPT,29,01:14.2
+2023,canada,9,Lance,Stroll,18,Aston Martin Aramco Mercedes,31,01:14.4
+2023,canada,10,Pierre,Gasly,10,Alpine Renault,39,01:14.5
+2023,canada,11,Oscar,Piastri,81,McLaren Mercedes,38,01:14.5
+2023,canada,12,Kevin,Magnussen,20,Haas Ferrari,36,01:14.5
+2023,canada,13,Lando,Norris,4,McLaren Mercedes,40,01:14.6
+2023,canada,14,Zhou,Guanyu,24,Alfa Romeo Ferrari,37,01:14.8
+2023,canada,15,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,43,01:14.9
+2023,canada,16,Nyck,De Vries,21,AlphaTauri Honda RBPT,38,01:15.0
+2023,canada,17,Alexander,Albon,23,Williams Mercedes,33,01:15.0
+2023,canada,18,Esteban,Ocon,31,Alpine Renault,17,01:15.1
+2023,canada,19,Logan,Sargeant,2,Williams Mercedes,38,01:15.4
+2023,canada,20,Nico,Hulkenberg,27,Haas Ferrari,11,01:16.4
+2023,great-britain,1,Max,Verstappen,1,Red Bull Racing Honda RBPT,27,01:28.1
+2023,great-britain,2,Carlos,Sainz,55,Ferrari,29,01:28.1
+2023,great-britain,3,Alexander,Albon,23,Williams Mercedes,30,01:28.3
+2023,great-britain,4,Sergio,Perez,11,Red Bull Racing Honda RBPT,30,01:28.3
+2023,great-britain,5,Logan,Sargeant,2,Williams Mercedes,29,01:28.8
+2023,great-britain,6,Lance,Stroll,18,Aston Martin Aramco Mercedes,30,01:28.9
+2023,great-britain,7,Nico,Hulkenberg,27,Haas Ferrari,28,01:28.9
+2023,great-britain,8,Pierre,Gasly,10,Alpine Renault,27,01:28.9
+2023,great-britain,9,Oscar,Piastri,81,McLaren Mercedes,29,01:28.9
+2023,great-britain,10,Fernando,Alonso,14,Aston Martin Aramco Mercedes,26,01:29.1
+2023,great-britain,11,Zhou,Guanyu,24,Alfa Romeo Ferrari,28,01:29.2
+2023,great-britain,12,George,Russell,63,Mercedes,25,01:29.2
+2023,great-britain,13,Esteban,Ocon,31,Alpine Renault,24,01:29.2
+2023,great-britain,14,Lando,Norris,4,McLaren Mercedes,24,01:29.3
+2023,great-britain,15,Lewis,Hamilton,44,Mercedes,24,01:29.3
+2023,great-britain,16,Valtteri,Bottas,77,Alfa Romeo Ferrari,28,01:29.4
+2023,great-britain,17,Kevin,Magnussen,20,Haas Ferrari,20,01:29.4
+2023,great-britain,18,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,25,01:29.5
+2023,great-britain,19,Nyck,De Vries,21,AlphaTauri Honda RBPT,29,01:29.6
+2023,hungary,1,Charles,Leclerc,16,Ferrari,20,01:17.7
+2023,hungary,2,Lando,Norris,4,McLaren Mercedes,30,01:17.7
+2023,hungary,3,Pierre,Gasly,10,Alpine Renault,26,01:17.9
+2023,hungary,4,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,31,01:17.9
+2023,hungary,5,Esteban,Ocon,31,Alpine Renault,30,01:18.0
+2023,hungary,6,Nico,Hulkenberg,27,Haas Ferrari,29,01:18.1
+2023,hungary,7,Valtteri,Bottas,77,Alfa Romeo Ferrari,29,01:18.1
+2023,hungary,8,Fernando,Alonso,14,Aston Martin Aramco Mercedes,32,01:18.1
+2023,hungary,9,Zhou,Guanyu,24,Alfa Romeo Ferrari,31,01:18.1
+2023,hungary,10,Carlos,Sainz,55,Ferrari,20,01:18.2
+2023,hungary,11,Max,Verstappen,1,Red Bull Racing Honda RBPT,18,01:18.3
+2023,hungary,12,Lance,Stroll,18,Aston Martin Aramco Mercedes,33,01:18.3
+2023,hungary,13,Alexander,Albon,23,Williams Mercedes,32,01:18.4
+2023,hungary,14,Daniel,Ricciardo,3,AlphaTauri Honda RBPT,30,01:18.4
+2023,hungary,15,Kevin,Magnussen,20,Haas Ferrari,27,01:18.5
+2023,hungary,16,Lewis,Hamilton,44,Mercedes,28,01:18.7
+2023,hungary,17,Logan,Sargeant,2,Williams Mercedes,30,01:18.8
+2023,hungary,18,Sergio,Perez,11,Red Bull Racing Honda RBPT,14,01:19.0
+2023,hungary,19,Oscar,Piastri,81,McLaren Mercedes,18,01:19.1
+2023,hungary,20,George,Russell,63,Mercedes,23,01:19.2
+2023,netherlands,1,Lando,Norris,4,McLaren Mercedes,30,01:11.3
+2023,netherlands,2,Max,Verstappen,1,Red Bull Racing Honda RBPT,26,01:11.4
+2023,netherlands,3,Alexander,Albon,23,Williams Mercedes,31,01:11.6
+2023,netherlands,4,Lewis,Hamilton,44,Mercedes,27,01:11.6
+2023,netherlands,5,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,31,01:11.7
+2023,netherlands,6,Pierre,Gasly,10,Alpine Renault,30,01:11.8
+2023,netherlands,7,Sergio,Perez,11,Red Bull Racing Honda RBPT,29,01:11.8
+2023,netherlands,8,Lance,Stroll,18,Aston Martin Aramco Mercedes,31,01:11.8
+2023,netherlands,9,Valtteri,Bottas,77,Alfa Romeo Ferrari,31,01:11.9
+2023,netherlands,10,Fernando,Alonso,14,Aston Martin Aramco Mercedes,31,01:11.9
+2023,netherlands,11,Charles,Leclerc,16,Ferrari,30,01:11.9
+2023,netherlands,12,Logan,Sargeant,2,Williams Mercedes,32,01:11.9
+2023,netherlands,13,Esteban,Ocon,31,Alpine Renault,30,01:12.0
+2023,netherlands,14,George,Russell,63,Mercedes,28,01:12.0
+2023,netherlands,15,Zhou,Guanyu,24,Alfa Romeo Ferrari,30,01:12.1
+2023,netherlands,16,Carlos,Sainz,55,Ferrari,31,01:12.1
+2023,netherlands,17,Kevin,Magnussen,20,Haas Ferrari,28,01:12.4
+2023,netherlands,18,Nico,Hulkenberg,27,Haas Ferrari,31,01:12.7
+2023,netherlands,19,Oscar,Piastri,81,McLaren Mercedes,6,01:12.9
+2023,netherlands,20,Daniel,Ricciardo,3,AlphaTauri Honda RBPT,7,01:13.1
+2023,italy,1,Carlos,Sainz,55,Ferrari,23,01:21.4
+2023,italy,2,Lando,Norris,4,McLaren Mercedes,20,01:21.4
+2023,italy,3,Sergio,Perez,11,Red Bull Racing Honda RBPT,17,01:21.5
+2023,italy,4,Oscar,Piastri,81,McLaren Mercedes,21,01:21.5
+2023,italy,5,Max,Verstappen,1,Red Bull Racing Honda RBPT,20,01:21.6
+2023,italy,6,Charles,Leclerc,16,Ferrari,23,01:21.7
+2023,italy,7,Alexander,Albon,23,Williams Mercedes,19,01:22.0
+2023,italy,8,Fernando,Alonso,14,Aston Martin Aramco Mercedes,16,01:22.1
+2023,italy,9,George,Russell,63,Mercedes,20,01:22.2
+2023,italy,10,Nico,Hulkenberg,27,Haas Ferrari,19,01:22.3
+2023,italy,11,Kevin,Magnussen,20,Haas Ferrari,21,01:22.6
+2023,italy,12,Valtteri,Bottas,77,Alfa Romeo Ferrari,19,01:22.6
+2023,italy,13,Pierre,Gasly,10,Alpine Renault,22,01:22.7
+2023,italy,14,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,23,01:22.7
+2023,italy,15,Esteban,Ocon,31,Alpine Renault,22,01:22.7
+2023,italy,16,Logan,Sargeant,2,Williams Mercedes,24,01:22.8
+2023,italy,17,Lewis,Hamilton,44,Mercedes,23,01:22.8
+2023,italy,18,Liam,Lawson,40,AlphaTauri Honda RBPT,23,01:23.2
+2023,italy,19,Zhou,Guanyu,24,Alfa Romeo Ferrari,20,01:23.3
+2023,italy,20,Lance,Stroll,18,Aston Martin Aramco Mercedes,2,
+2023,singapore,1,Carlos,Sainz,55,Ferrari,26,01:32.1
+2023,singapore,2,Charles,Leclerc,16,Ferrari,27,01:32.1
+2023,singapore,3,George,Russell,63,Mercedes,25,01:32.4
+2023,singapore,4,Fernando,Alonso,14,Aston Martin Aramco Mercedes,25,01:32.5
+2023,singapore,5,Lewis,Hamilton,44,Mercedes,23,01:32.6
+2023,singapore,6,Lando,Norris,4,McLaren Mercedes,23,01:32.7
+2023,singapore,7,Sergio,Perez,11,Red Bull Racing Honda RBPT,23,01:32.8
+2023,singapore,8,Max,Verstappen,1,Red Bull Racing Honda RBPT,23,01:32.9
+2023,singapore,9,Kevin,Magnussen,20,Haas Ferrari,25,01:33.0
+2023,singapore,10,Valtteri,Bottas,77,Alfa Romeo Ferrari,24,01:33.1
+2023,singapore,11,Nico,Hulkenberg,27,Haas Ferrari,22,01:33.1
+2023,singapore,12,Liam,Lawson,40,AlphaTauri Honda RBPT,27,01:33.3
+2023,singapore,13,Esteban,Ocon,31,Alpine Renault,25,01:33.4
+2023,singapore,14,Lance,Stroll,18,Aston Martin Aramco Mercedes,25,01:33.4
+2023,singapore,15,Oscar,Piastri,81,McLaren Mercedes,23,01:33.5
+2023,singapore,16,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,27,01:33.5
+2023,singapore,17,Zhou,Guanyu,24,Alfa Romeo Ferrari,25,01:33.6
+2023,singapore,18,Pierre,Gasly,10,Alpine Renault,24,01:33.8
+2023,singapore,19,Logan,Sargeant,2,Williams Mercedes,28,01:34.3
+2023,singapore,20,Alexander,Albon,23,Williams Mercedes,5,01:35.6
+2023,japan,1,Max,Verstappen,1,Red Bull Racing Honda RBPT,19,01:30.7
+2023,japan,2,Charles,Leclerc,16,Ferrari,23,01:31.0
+2023,japan,3,Lando,Norris,4,McLaren Mercedes,22,01:31.2
+2023,japan,4,Carlos,Sainz,55,Ferrari,22,01:31.2
+2023,japan,5,George,Russell,63,Mercedes,22,01:31.3
+2023,japan,6,Fernando,Alonso,14,Aston Martin Aramco Mercedes,22,01:31.5
+2023,japan,7,Alexander,Albon,23,Williams Mercedes,23,01:31.6
+2023,japan,8,Oscar,Piastri,81,McLaren Mercedes,22,01:31.7
+2023,japan,9,Sergio,Perez,11,Red Bull Racing Honda RBPT,24,01:31.7
+2023,japan,10,Valtteri,Bottas,77,Alfa Romeo Ferrari,22,01:31.7
+2023,japan,11,Lance,Stroll,18,Aston Martin Aramco Mercedes,22,01:31.8
+2023,japan,12,Esteban,Ocon,31,Alpine Renault,22,01:31.8
+2023,japan,13,Nico,Hulkenberg,27,Haas Ferrari,24,01:31.8
+2023,japan,14,Lewis,Hamilton,44,Mercedes,21,01:31.8
+2023,japan,15,Liam,Lawson,40,AlphaTauri Honda RBPT,23,01:32.1
+2023,japan,16,Zhou,Guanyu,24,Alfa Romeo Ferrari,16,01:32.2
+2023,japan,17,Kevin,Magnussen,20,Haas Ferrari,23,01:32.2
+2023,japan,18,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,26,01:32.2
+2023,japan,19,Pierre,Gasly,10,Alpine Renault,22,01:32.2
+2023,japan,20,Logan,Sargeant,2,Williams Mercedes,25,01:32.3
+2023,mexico,1,Max,Verstappen,1,Red Bull Racing Honda RBPT,26,01:18.7
+2023,mexico,2,Lando,Norris,4,McLaren Mercedes,31,01:18.8
+2023,mexico,3,Charles,Leclerc,16,Ferrari,33,01:19.0
+2023,mexico,4,Valtteri,Bottas,77,Alfa Romeo Ferrari,33,01:19.0
+2023,mexico,5,Sergio,Perez,11,Red Bull Racing Honda RBPT,29,01:19.0
+2023,mexico,6,Daniel,Ricciardo,3,AlphaTauri Honda RBPT,31,01:19.0
+2023,mexico,7,Lewis,Hamilton,44,Mercedes,30,01:19.0
+2023,mexico,8,Esteban,Ocon,31,Alpine Renault,29,01:19.1
+2023,mexico,9,Oscar,Piastri,81,McLaren Mercedes,31,01:19.2
+2023,mexico,10,George,Russell,63,Mercedes,31,01:19.2
+2023,mexico,11,Carlos,Sainz,55,Ferrari,34,01:19.3
+2023,mexico,12,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,34,01:19.3
+2023,mexico,13,Zhou,Guanyu,24,Alfa Romeo Ferrari,27,01:19.4
+2023,mexico,14,Alexander,Albon,23,Williams Mercedes,23,01:19.4
+2023,mexico,15,Nico,Hulkenberg,27,Haas Ferrari,29,01:19.5
+2023,mexico,16,Pierre,Gasly,10,Alpine Renault,29,01:19.6
+2023,mexico,17,Logan,Sargeant,2,Williams Mercedes,26,01:19.9
+2023,mexico,18,Lance,Stroll,18,Aston Martin Aramco Mercedes,17,01:20.1
+2023,mexico,19,Kevin,Magnussen,20,Haas Ferrari,30,01:20.1
+2023,mexico,20,Fernando,Alonso,14,Aston Martin Aramco Mercedes,30,01:20.4
+2023,wimmer,1,Max,Verstappen,1,Red Bull Racing Honda RBPT,23,01:27.9
+2023,wimmer,2,Carlos,Sainz,55,Ferrari,26,01:28.3
+2023,wimmer,3,Charles,Leclerc,16,Ferrari,20,01:28.4
+2023,wimmer,4,Sergio,Perez,11,Red Bull Racing Honda RBPT,24,01:28.4
+2023,wimmer,5,Fernando,Alonso,14,Aston Martin Aramco Mercedes,25,01:28.7
+2023,wimmer,6,Lando,Norris,4,McLaren Mercedes,24,01:28.7
+2023,wimmer,7,Lewis,Hamilton,44,Mercedes,23,01:28.9
+2023,wimmer,8,Lance,Stroll,18,Aston Martin Aramco Mercedes,23,01:28.9
+2023,wimmer,9,Esteban,Ocon,31,Alpine Renault,25,01:28.9
+2023,wimmer,10,Alexander,Albon,23,Williams Mercedes,26,01:29.0
+2023,wimmer,11,Pierre,Gasly,10,Alpine Renault,22,01:29.1
+2023,wimmer,12,Kevin,Magnussen,20,Haas Ferrari,22,01:29.2
+2023,wimmer,13,Zhou,Guanyu,24,Alfa Romeo Ferrari,27,01:29.2
+2023,wimmer,14,Valtteri,Bottas,77,Alfa Romeo Ferrari,26,01:29.2
+2023,wimmer,15,George,Russell,63,Mercedes,21,01:29.2
+2023,wimmer,16,Oscar,Piastri,81,McLaren Mercedes,24,01:29.3
+2023,wimmer,17,Nico,Hulkenberg,27,Haas Ferrari,22,01:29.4
+2023,wimmer,18,Yuki,Tsunoda,22,AlphaTauri Honda RBPT,25,01:29.6
+2023,wimmer,19,Daniel,Riccardo,21,AlphaTauri Honda RBPT,25,01:29.9
+2023,wimmer,20,Logan,Sargeant,2,Williams Mercedes,27,01:30.0
