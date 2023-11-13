@@ -1,8 +1,0 @@
-So for this wimmer race, I had to get the data by hand. My web scraper did not work with the website url.
-I imported all of the data and copy and pasted the raw data into my raw data tables.
-
-From there I transformed the data as normal with my transforming script. Then after that I used my pre-saved queries to
-upload the newly refined data to my table.
-
-Lastly, I had premade reports setup on my DB extra so all I had to do was open those up and upload them.
-

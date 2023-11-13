@@ -7,12 +7,12 @@ team_mapping = {}
 # List of CSV files and their corresponding race types
 csv_files = [
     ('formula1_results_race_2023.csv', 'Race'),
-    # ('formula1_results_qual_2023.csv', 'Qualifying'),
-    # ('formula1_results_practice1_2023.csv', 'Practice 1'),
-    # ('formula1_results_practice2_2023.csv', 'Practice 2'),
-    # ('formula1_results_practice3_2023.csv', 'Practice 3'),
+    ('formula1_results_qual_2023.csv', 'Qualifying'),
+    ('formula1_results_practice1_2023.csv', 'Practice 1'),
+    ('formula1_results_practice2_2023.csv', 'Practice 2'),
+    ('formula1_results_practice3_2023.csv', 'Practice 3'),
     ('formula1_results_sprint_2023.csv', 'Sprint'),
-    # ('formula1_results_sprint_qual_2023.csv', 'Sprint Qualifying')
+    ('formula1_results_sprint_qual_2023.csv', 'Sprint Qualifying')
     # Add more CSV files with their respective race types here
 ]
 
@@ -105,7 +105,7 @@ nationality_df.to_csv('nationality_mapping.csv', index=False) """
 # # event id creation
 # import pandas as pd
 
-""" # Load data from the "practice1_2023.csv" file
+# Load data from the "practice1_2023.csv" file
 practice1_data = pd.read_csv('formula1_results_practice1_2023.csv')
 
 # Extract all unique race names from the "Race Name" column
@@ -117,7 +117,7 @@ event_to_id = {event: event_id for event_id, event in enumerate(unique_race_name
 # Create an "events" DataFrame with "Event ID" and "Event Name" columns
 events_df = pd.DataFrame({'Event Name': unique_race_names})
 events_df['Event Name'] = events_df['Event Name'].str.replace('-', ' ').str.title()
-events_df['Event ID'] = range(1, len(events_df) + 1) """
+events_df['Event ID'] = range(1, len(events_df) + 1)
 
 # Save the "events" DataFrame to a CSV file
 # events_df.to_csv('events.csv', index=False)
@@ -129,7 +129,7 @@ events_df['Event ID'] = range(1, len(events_df) + 1) """
 # import pandas as pd
 # 
 # Load driver data from the CSV file
-""" driver_data = pd.read_csv('formula1_driver_data_2023.csv')
+driver_data = pd.read_csv('formula1_driver_data_2023.csv')
 
 # Create a mapping from driver names to driver IDs
 driver_name_to_id = {f"{row['First Name']} {row['Last Name']}": row['Driver ID'] for index, row in driver_data.iterrows()}
@@ -188,7 +188,7 @@ for idx, data in enumerate(practice_data, start=1):
 practice_df = pd.concat(practice_dfs, ignore_index=True)
 
 # Save the "Practice" DataFrame to a CSV file
-practice_df.to_csv('practice_data.csv', index=False) """
+practice_df.to_csv('practice_data.csv', index=False)
 # =============================================================================
 
 ######################################################################
@@ -263,7 +263,7 @@ race_df.to_csv('race_data.csv', index=False)
 # Qual Data
 #%%
 #import pandas as pd
-""" 
+
 # Load driver data from the CSV file
 driver_data = pd.read_csv('formula1_driver_data_2023.csv')
 
@@ -326,7 +326,7 @@ qualifying_df = pd.concat(qualifying_dfs, ignore_index=True)
 # Save the "Qualifying" DataFrame to a CSV file
 qualifying_df.to_csv('qualifying_data.csv', index=False)
 
- """
+
 ########################################################################
 #%%
 

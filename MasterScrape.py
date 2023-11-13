@@ -211,8 +211,6 @@ for event, indices in event_indices.items():
 print("\nRace Scrape Starting")
 raceInfo.main(race_links, race_name, y, event_indices)
 print("\nRace Scrape Finished")
-
-""" 
 print("---------------------------------------------------------------------------")
 print("Qualifying Scrape Starting\n")
 
@@ -248,4 +246,4 @@ print("-------------------------------------------------------------------------
 print("Practice 3 Scrape Starting\n")
 import practiceInfo3
 practiceInfo3.main(race_links, race_name, y, event_indices)
-print("Practice 3 Scrape Finsihed\n") """
+print("Practice 3 Scrape Finsihed\n")
